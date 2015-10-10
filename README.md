@@ -1,2 +1,2 @@
 # AngularStore
-Example of using Angular for templateing
+Example of using AngularJs for templateing
