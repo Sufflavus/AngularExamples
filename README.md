@@ -11,3 +11,5 @@ Projects with examples of using AngularJs for templateing
 1. [AngularJS v2.0](https://angularjs.org/)
 
 ##3. Tour of Heroes
+### List of used tecnologies and libraries:
+1. [AngularJS v2.0](https://angularjs.org/)
