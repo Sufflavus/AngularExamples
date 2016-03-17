@@ -7,7 +7,10 @@ import { HeroesComponent } from "./heroes.component";
     selector: "my-app",
     template: `
         <h1>{{title}}</h1>
-        <a [routerLink]="['Heroes']">Heroes</a>
+        <nav>
+            <a [routerLink]="['Dashboard']">Dashboard</a>
+            <a [routerLink]="['Heroes']">Heroes</a>
+        </nav>
         <router-outlet></router-outlet>
     `,
     directives: [
@@ -27,4 +30,10 @@ export class AppComponent {
     path: "/heroes",
     name: "Heroes",
     component: HeroesComponent
+}, {
+    path: "/dashboard",
+    name: "Dashboard",
+    useAsDefault: true
 }])
+
+//Router Links
