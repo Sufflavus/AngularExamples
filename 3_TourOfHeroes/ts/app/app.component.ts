@@ -35,5 +35,3 @@ export class AppComponent {
     name: "Dashboard",
     useAsDefault: true
 }])
-
-//Router Links
