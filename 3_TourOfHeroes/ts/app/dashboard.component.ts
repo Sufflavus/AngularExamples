@@ -7,6 +7,7 @@ import { HeroService } from "./hero.service";
 @Component({
     selector: 'my-dashboard',
     templateUrl: 'app/dashboard.component.html',
+    styleUrls: ['app/dashboard.component.css']
 })
 
 export class DashboardComponent implements OnInit {
@@ -28,4 +29,4 @@ export class DashboardComponent implements OnInit {
     }
 }
 
-//Select a Hero in the HeroesComponent
+//Style the Navigation Links
